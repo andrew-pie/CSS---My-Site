@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	font-family: 'Merriweather', serif;
 	font-size: 2em;
+	color: #40514e;
 }
 
 h1 {
@@ -18,7 +19,7 @@ h2{
 	font-family: 'Montserrat', sans-serif;
 	color: #66bfbf;
 	font-weight: bold;
-
+	padding-bottom: 10px;
 
 }
 
@@ -32,17 +33,26 @@ h3{
 
 a{
 	color: #11999e;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+	font-size: 1rem;
+}
+
+a:hover {
+	color: #EAF6F6;
 }
 
 p {
+	line-height: 2;
 	font-size: 1rem;
 }
 
 hr{
-	border-top: 5px dotted;
-	width: 5%;
-	color: #EAF6F6;
-	margin: 50px auto 50px auto;
+	border: dotted #EAF6F6 6px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
 }
 
 .pyrozhok{
@@ -50,7 +60,6 @@ hr{
 	height: 200px;
 	border-radius: 50%;
 	object-fit: cover;
-	margin-top: 50px;
 }
 
 .skill-icon{
@@ -79,12 +88,12 @@ hr{
 }
 
 .middle-container {
-	
+	margin: 100px 0;
 }
 
 .bottom-container {
-background-color: #30e3cb;
-padding: 25px 0px 25px 0px;
+background-color: #66bfbf;
+padding: 50px 0px 20px;
 margin: 50px auto 0px auto;
 }
 
@@ -92,16 +101,26 @@ margin: 50px auto 0px auto;
 	text-decoration: underline;
 }
 
+.intro{
+	width: 30%;
+	margin: auto;
+}
+
+.contact-message{
+	width: 40%;
+	margin: 40px auto 60px;
+}
+
 .top-cloud {
 	position: absolute;
 	right: 300px;
-	top: 50px;
+	top: 40px;
 
 }
 
 .bottom-cloud {
 	position: absolute;
-	left: 300px;
+	left: 250px;
 	bottom: 300px;
 }
 
@@ -136,7 +155,7 @@ margin: 50px auto 0px auto;
 	-webkit-border-radius: 8;
 	-moz-border-radius: 8;
 	border-radius: 8px;
-	font-family: Arial;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
@@ -153,13 +172,10 @@ margin: 50px auto 0px auto;
 	text-decoration: none;
  }
 
- .footer-link{
-	color: #11999E;
-	text-decoration: none;
-	font-size: 1rem;
- }
 
  .footer-copyright{
 	color: #EAF6F6;
-	font-size: 10px;
+	font-size: 0.75rem;
+	padding: 20px 16px;
  }
+
